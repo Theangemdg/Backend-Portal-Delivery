@@ -1,0 +1,200 @@
+[
+    {
+        "nombre": "Pedro",
+        "correo": "Martinez",
+        "contraseña": "as123",
+        "latitud": "151515",
+        "longitud": "151554",
+        "ordenes": [
+            {
+                "nombreProducto": "Pastel Helado",
+                "imgProducto": "../img/BasiliosPastelHelado.jpg",
+                "cantidad": 2,
+                "descripcion": "Pastel",
+                "precio": 150.99
+            },
+            {
+                "nombreProducto": "Pastel de Corazón",
+                "imgProducto": "../img/BasiliosPastelCorazon.jpg",
+                "cantidad": 2,
+                "descripcion": "Pastele",
+                "precio": 350.99
+            },
+            {
+                "nombreProducto": "Pastel tres leches",
+                "imgProducto": "../img/Basilios3Leches.jpg",
+                "cantidad": 2,
+                "descripcion": "Pastele",
+                "precio": 250.99
+            }
+        ],
+        "pedidos": [
+            {
+                "numeroPedido": 1,
+                "usuario": "Pedro",
+                "correo": "Martinez",
+                "fechaPago": "26/06/2022",
+                "total": 120,
+                "icv": 5,
+                "subTotal": 125,
+                "productos": [
+                    {
+                        "nombreProducto": "Pastel Helado", 
+                        "cantidad": 2,
+                        "precio": 150.99
+                    },
+                    {
+                        "nombreProducto": "Pastel de Corazón", 
+                        "cantidad": 2,
+                        "precio": 350.99
+                    },
+                    {
+                        "nombreProducto": "Pastel tres leches", 
+                        "cantidad": 2,
+                        "precio": 250.99
+                    }
+                ]
+            }
+        ],
+        "metodoPago": [
+            {
+                "nombrePago": "Pedro Martinez",
+                "numeroTargeta": "123456",
+                "FechaExpiracion": "22/02/2022",
+                "CVV": "756"
+            }
+        ]
+    },
+    {
+        "nombre": "Juan",
+        "correo": "Perez",
+        "contraseña": "as123",
+        "latitud": "151515",
+        "longitud": "151554",
+        "ordenes": [
+            {
+                "nombreProducto": "Media Docena",
+                "imgProducto": "../img/DkmediaDocena.jpg",
+                "cantidad": 2,
+                "descripcion": "Donuts",
+                "precio": 186.99
+            },
+            {
+                "nombreProducto": "Docena de donas",
+                "imgProducto": "../img/DKDocena.png",
+                "cantidad": 2,
+                "descripcion": "Donuts",
+                "precio": 279.99
+            },
+            {
+                "nombreProducto": "Dona + Café",
+                "imgProducto": "../img/DKDonaCafe.jpg",
+                "cantidad": 2,
+                "descripcion": "Donas y café",
+                "precio": 59.99
+            }
+        ],
+        "pedidos": [
+            {
+                "numeroPedido": 1,
+                "usuario": "Juan",
+                "correo": "Perez",
+                "fechaPago": "26/06/2022",
+                "total": 120,
+                "icv": 5,
+                "subTotal": 125,
+                "productos": [
+                    {
+                        "nombreProducto": "Pastel Helado", 
+                        "cantidad": 2,
+                        "precio": 150.99
+                    },
+                    {
+                        "nombreProducto": "Pastel de Corazón", 
+                        "cantidad": 2,
+                        "precio": 350.99
+                    },
+                    {
+                        "nombreProducto": "Pastel tres leches", 
+                        "cantidad": 2,
+                        "precio": 250.99
+                    }
+                ]
+            }
+        ],
+        "metodoPago": [
+            {
+                "nombrePago": "Juan Perez",
+                "numeroTargeta": "123456",
+                "FechaExpiracion": "22/02/2022",
+                "CVV": "756"
+            }
+        ]
+    },
+    {
+        "nombre": "Maria",
+        "correo": "Rodriguez",
+        "contraseña": "as123",
+        "latitud": "151515",
+        "longitud": "151554",
+        "ordenes": [
+            {
+                "nombreProducto": "Media Docena",
+                "imgProducto": "../img/DkmediaDocena.jpg",
+                "cantidad": 2,
+                "descripcion": "Donuts",
+                "precio": 186.99
+            },
+            {
+                "nombreProducto": "Docena de donas",
+                "imgProducto": "../img/DKDocena.png",
+                "cantidad": 2,
+                "descripcion": "Donuts",
+                "precio": 279.99
+            },
+            {
+                "nombreProducto": "Dona + Café",
+                "imgProducto": "../img/DKDonaCafe.jpg",
+                "cantidad": 2,
+                "descripcion": "Donas y café",
+                "precio": 59.99
+            }
+        ],
+        "pedidos": [
+            {
+                "numeroPedido": 1,
+                "usuario": "Maria",
+                "correo": "Rodriguez",
+                "fechaPago": "26/06/2022",
+                "total": 120,
+                "icv": 5,
+                "subTotal": 125,
+                "productos": [
+                    {
+                        "nombreProducto": "Pastel Helado", 
+                        "cantidad": 2,
+                        "precio": 150.99
+                    },
+                    {
+                        "nombreProducto": "Pastel de Corazón", 
+                        "cantidad": 2,
+                        "precio": 350.99
+                    },
+                    {
+                        "nombreProducto": "Pastel tres leches", 
+                        "cantidad": 2,
+                        "precio": 250.99
+                    }
+                ]
+            }
+        ],
+        "metodoPago": [
+            {
+                "nombrePago": "Maria Rodriguez",
+                "numeroTargeta": "123456",
+                "FechaExpiracion": "22/02/2022",
+                "CVV": "756"
+            }
+        ]
+    }
+]
