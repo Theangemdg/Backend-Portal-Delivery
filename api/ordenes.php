@@ -11,7 +11,9 @@
             echo json_encode($resultado); 
         break;
         case 'GET':
-            
+            if (isset($_GET['id'])){
+                Orden::obtenerOrdenes($_GET['id']);
+            }
         break;
         case 'PUT':
 

@@ -14,7 +14,7 @@
                         "nombreProducto": "Pizza de peperoni",
                         "imgProducto": "../img/PizzaPeperoni.jpg",
                         "descripcion": "Pizzas",
-                       " precio": 99.99
+                        "precio": 99.99
                     },
                     {
                         "nombreProducto": "Pizza de jamon",
@@ -275,7 +275,7 @@
                         "nombreProducto": "Pepsi de lata",
                         "imgProducto": "../img/PepsiLata.png",
                         "descripcion": "Bebida",
-                       "precio": 20.99
+                        "precio": 20.99
                     },
                     {
                         "nombreProducto": "Pepsi 3 litros",
@@ -328,7 +328,7 @@
                         "nombreProducto": "Cinnabon Clasico",
                         "imgProducto": "../img/cinnabonClassic.jpg",
                         "descripcion": "Postre",
-                        "preci": 200.99
+                        "precio": 200.99
                     },
                     {
                         "nombreProducto": "Cinnabon Cupcake",

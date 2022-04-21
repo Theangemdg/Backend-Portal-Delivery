@@ -38,6 +38,12 @@
             fclose($archivo);
         }
 
+        public static function obtenerOrdenes($indice){
+            $contenidoArchivo =  file_get_contents("../data/usuarios.json");
+            $usuarios = json_decode($contenidoArchivo, true);
+            echo json_encode($usuarios[$indice]["ordenes"]);
+        }
+
 
         public static function eliminarOrden($indice, $idOrden){
             $contenidoArchivo =  file_get_contents("../data/usuarios.json");
