@@ -50,7 +50,7 @@
         public static function obtenerProductos($indice,$empresa){
             $contenidoArchivo =  file_get_contents("../data/categorias.json");
             $categorias = json_decode($contenidoArchivo, true);
-            echo json_encode($categorias[$indice]["empresas"][$empresa]["productos"]);
+            echo json_encode($categorias[$indice]["empresas"][$empresa]);
         }
 
         public static function obtenerProducto($indice, $idEmpresa, $producto){

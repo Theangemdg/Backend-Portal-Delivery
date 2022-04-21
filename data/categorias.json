@@ -328,7 +328,7 @@
                         "nombreProducto": "Cinnabon Clasico",
                         "imgProducto": "..\/img\/cinnabonClassic.jpg",
                         "descripcion": "Postre",
-                        "preci": 200.99
+                        "precio": 200.99
                     },
                     {
                         "nombreProducto": "Cinnabon Cupcake",
