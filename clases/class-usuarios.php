@@ -47,6 +47,11 @@
             $usuarios = json_decode($contenidoArchivo, true);
             echo json_encode($usuarios[$indice]);
         }
+
+        public static function obtenerUsuarios(){
+                $contenidoArchivo =  file_get_contents("../data/usuarios.json");
+                echo $contenidoArchivo ;
+        }
         
 
         /**

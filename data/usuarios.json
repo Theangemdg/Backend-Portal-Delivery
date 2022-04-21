@@ -2,27 +2,27 @@
     {
         "nombre": "Pedro",
         "correo": "Martinez",
-        "contraseña": "as123",
+        "contrase\u00f1a": "as123",
         "latitud": "151515",
         "longitud": "151554",
         "ordenes": [
             {
                 "nombreProducto": "Pastel Helado",
-                "imgProducto": "../img/BasiliosPastelHelado.jpg",
+                "imgProducto": "..\/img\/BasiliosPastelHelado.jpg",
                 "cantidad": 2,
                 "descripcion": "Pastel",
                 "precio": 150.99
             },
             {
-                "nombreProducto": "Pastel de Corazón",
-                "imgProducto": "../img/BasiliosPastelCorazon.jpg",
+                "nombreProducto": "Pastel de Coraz\u00f3n",
+                "imgProducto": "..\/img\/BasiliosPastelCorazon.jpg",
                 "cantidad": 2,
                 "descripcion": "Pastele",
                 "precio": 350.99
             },
             {
                 "nombreProducto": "Pastel tres leches",
-                "imgProducto": "../img/Basilios3Leches.jpg",
+                "imgProducto": "..\/img\/Basilios3Leches.jpg",
                 "cantidad": 2,
                 "descripcion": "Pastele",
                 "precio": 250.99
@@ -33,23 +33,23 @@
                 "numeroPedido": 1,
                 "usuario": "Pedro",
                 "correo": "Martinez",
-                "fechaPago": "26/06/2022",
+                "fechaPago": "26\/06\/2022",
                 "total": 120,
                 "icv": 5,
                 "subTotal": 125,
                 "productos": [
                     {
-                        "nombreProducto": "Pastel Helado", 
+                        "nombreProducto": "Pastel Helado",
                         "cantidad": 2,
                         "precio": 150.99
                     },
                     {
-                        "nombreProducto": "Pastel de Corazón", 
+                        "nombreProducto": "Pastel de Coraz\u00f3n",
                         "cantidad": 2,
                         "precio": 350.99
                     },
                     {
-                        "nombreProducto": "Pastel tres leches", 
+                        "nombreProducto": "Pastel tres leches",
                         "cantidad": 2,
                         "precio": 250.99
                     }
@@ -60,7 +60,7 @@
             {
                 "nombrePago": "Pedro Martinez",
                 "numeroTargeta": "123456",
-                "FechaExpiracion": "22/02/2022",
+                "FechaExpiracion": "22\/02\/2022",
                 "CVV": "756"
             }
         ]
@@ -68,29 +68,29 @@
     {
         "nombre": "Juan",
         "correo": "Perez",
-        "contraseña": "as123",
+        "contrase\u00f1a": "as123",
         "latitud": "151515",
         "longitud": "151554",
         "ordenes": [
             {
                 "nombreProducto": "Media Docena",
-                "imgProducto": "../img/DkmediaDocena.jpg",
+                "imgProducto": "..\/img\/DkmediaDocena.jpg",
                 "cantidad": 2,
                 "descripcion": "Donuts",
                 "precio": 186.99
             },
             {
                 "nombreProducto": "Docena de donas",
-                "imgProducto": "../img/DKDocena.png",
+                "imgProducto": "..\/img\/DKDocena.png",
                 "cantidad": 2,
                 "descripcion": "Donuts",
                 "precio": 279.99
             },
             {
-                "nombreProducto": "Dona + Café",
-                "imgProducto": "../img/DKDonaCafe.jpg",
+                "nombreProducto": "Dona + Caf\u00e9",
+                "imgProducto": "..\/img\/DKDonaCafe.jpg",
                 "cantidad": 2,
-                "descripcion": "Donas y café",
+                "descripcion": "Donas y caf\u00e9",
                 "precio": 59.99
             }
         ],
@@ -99,23 +99,23 @@
                 "numeroPedido": 1,
                 "usuario": "Juan",
                 "correo": "Perez",
-                "fechaPago": "26/06/2022",
+                "fechaPago": "26\/06\/2022",
                 "total": 120,
                 "icv": 5,
                 "subTotal": 125,
                 "productos": [
                     {
-                        "nombreProducto": "Pastel Helado", 
+                        "nombreProducto": "Pastel Helado",
                         "cantidad": 2,
                         "precio": 150.99
                     },
                     {
-                        "nombreProducto": "Pastel de Corazón", 
+                        "nombreProducto": "Pastel de Coraz\u00f3n",
                         "cantidad": 2,
                         "precio": 350.99
                     },
                     {
-                        "nombreProducto": "Pastel tres leches", 
+                        "nombreProducto": "Pastel tres leches",
                         "cantidad": 2,
                         "precio": 250.99
                     }
@@ -126,7 +126,7 @@
             {
                 "nombrePago": "Juan Perez",
                 "numeroTargeta": "123456",
-                "FechaExpiracion": "22/02/2022",
+                "FechaExpiracion": "22\/02\/2022",
                 "CVV": "756"
             }
         ]
@@ -134,29 +134,29 @@
     {
         "nombre": "Maria",
         "correo": "Rodriguez",
-        "contraseña": "as123",
+        "contrase\u00f1a": "as123",
         "latitud": "151515",
         "longitud": "151554",
         "ordenes": [
             {
                 "nombreProducto": "Media Docena",
-                "imgProducto": "../img/DkmediaDocena.jpg",
+                "imgProducto": "..\/img\/DkmediaDocena.jpg",
                 "cantidad": 2,
                 "descripcion": "Donuts",
                 "precio": 186.99
             },
             {
                 "nombreProducto": "Docena de donas",
-                "imgProducto": "../img/DKDocena.png",
+                "imgProducto": "..\/img\/DKDocena.png",
                 "cantidad": 2,
                 "descripcion": "Donuts",
                 "precio": 279.99
             },
             {
-                "nombreProducto": "Dona + Café",
-                "imgProducto": "../img/DKDonaCafe.jpg",
+                "nombreProducto": "Dona + Caf\u00e9",
+                "imgProducto": "..\/img\/DKDonaCafe.jpg",
                 "cantidad": 2,
-                "descripcion": "Donas y café",
+                "descripcion": "Donas y caf\u00e9",
                 "precio": 59.99
             }
         ],
@@ -165,23 +165,23 @@
                 "numeroPedido": 1,
                 "usuario": "Maria",
                 "correo": "Rodriguez",
-                "fechaPago": "26/06/2022",
+                "fechaPago": "26\/06\/2022",
                 "total": 120,
                 "icv": 5,
                 "subTotal": 125,
                 "productos": [
                     {
-                        "nombreProducto": "Pastel Helado", 
+                        "nombreProducto": "Pastel Helado",
                         "cantidad": 2,
                         "precio": 150.99
                     },
                     {
-                        "nombreProducto": "Pastel de Corazón", 
+                        "nombreProducto": "Pastel de Coraz\u00f3n",
                         "cantidad": 2,
                         "precio": 350.99
                     },
                     {
-                        "nombreProducto": "Pastel tres leches", 
+                        "nombreProducto": "Pastel tres leches",
                         "cantidad": 2,
                         "precio": 250.99
                     }
@@ -192,9 +192,19 @@
             {
                 "nombrePago": "Maria Rodriguez",
                 "numeroTargeta": "123456",
-                "FechaExpiracion": "22/02/2022",
+                "FechaExpiracion": "22\/02\/2022",
                 "CVV": "756"
             }
         ]
+    },
+    {
+        "nombre": "Alejandro",
+        "correo": "ale@gmail.com",
+        "contraseña": "moisa",
+        "latitud": "",
+        "longitud": "",
+        "ordenes": [],
+        "pedidos": [],
+        "metodoPago": []
     }
 ]

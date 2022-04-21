@@ -54,7 +54,7 @@
         public static function obtenerEmpresas($indice){
             $contenidoArchivo =  file_get_contents("../data/categorias.json");
             $categorias = json_decode($contenidoArchivo, true);
-            echo json_encode($categorias[$indice]["empresas"]);
+            echo json_encode($categorias[$indice]);
         }
 
         public static function obtenerEmpresa($indice, $idEmpresa){
