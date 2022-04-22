@@ -87,11 +87,32 @@
                 "precio": 186.99
             },
             {
-                "nombreProducto": "Pizza de jamon",
-                "imgProducto": "..\/img\/pizzajamon.jpg",
-                "cantidad": "1",
+                "nombreProducto": "Docena de donas",
+                "imgProducto": "..\/img\/DKDocena.png",
+                "cantidad": 2,
+                "descripcion": "Donuts",
+                "precio": 279.99
+            },
+            {
+                "nombreProducto": "Dona + Caf\u00e9",
+                "imgProducto": "..\/img\/DKDonaCafe.jpg",
+                "cantidad": 2,
+                "descripcion": "Donas y caf\u00e9",
+                "precio": 59.99
+            },
+            {
+                "nombreProducto": "Pizza de peperoni",
+                "imgProducto": "..\/img\/PizzaPeperoni.jpg",
+                "cantidad": "2",
                 "descripcion": "Pizzas",
-                "precio": 150.99
+                "precio": 199.98
+            },
+            {
+                "nombreProducto": "Amoxicilina",
+                "imgProducto": "..\/img\/AmoxicilinaKielsa.jpg",
+                "cantidad": 1,
+                "descripcion": "Medicamentos",
+                "precio": 75.99
             }
         ],
         "pedidos": [
@@ -203,23 +224,30 @@
         "contrase\u00f1a": "moisa",
         "latitud": "",
         "longitud": "",
-        "ordenes": [
+        "ordenes": [],
+        "pedidos": [
             {
-                "nombreProducto": "Media Docena",
-                "imgProducto": "..\/img\/DkmediaDocena.jpg",
-                "cantidad": 2,
-                "descripcion": "Donuts",
-                "precio": 186.99
-            },
-            {
-                "nombreProducto": "Cheese Burguer",
-                "imgProducto": "..\/img\/CheeseBurguerMcdonald.jpg",
-                "cantidad": "1",
-                "descripcion": "Hamburguesas",
-                "precio": 150.99
+                "numeroPedido": 1,
+                "usuario": "Alejandro",
+                "correo": "ale@gmail.com",
+                "fechaPago": "21\/4\/2022",
+                "total": 302.427,
+                "icv": 39.447,
+                "subTotal": 262.98,
+                "productos": [
+                    {
+                        "nombreProducto": "Media Docena",
+                        "cantidad": 2,
+                        "precio": 186.99
+                    },
+                    {
+                        "nombreProducto": "Amoxicilina",
+                        "cantidad": 1,
+                        "precio": 75.99
+                    }
+                ]
             }
         ],
-        "pedidos": [],
         "metodoPago": []
     }
 ]

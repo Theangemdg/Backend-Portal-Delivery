@@ -19,9 +19,16 @@
 
         break;
         case 'DELETE':
-            Orden::eliminarOrden($_GET["id"], $_GET['idO']);
-            $resultado["mensaje"] = "Eliminar una orden con el id: ".$_GET['id'];
-            echo json_encode($resultado);
+            if(isset($_GET['id']) && isset($_GET['idO'])){
+                Orden::eliminarOrden($_GET["id"], $_GET['idO']);
+                $resultado["mensaje"] = "Eliminar una orden con el id: ".$_GET['id'];
+                echo json_encode($resultado);
+            }else if(isset($_GET['id'])){
+                Orden::eliminarOrdenes($_GET['id']);
+                $resultado["mensaje"] = "Eliminar las ordenes del usaurio con el id: ".$_GET['id'];
+                echo json_encode($resultado);
+            }
+            
         break;
     }
 
