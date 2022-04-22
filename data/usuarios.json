@@ -87,25 +87,11 @@
                 "precio": 186.99
             },
             {
-                "nombreProducto": "Docena de donas",
-                "imgProducto": "..\/img\/DKDocena.png",
-                "cantidad": 2,
-                "descripcion": "Donuts",
-                "precio": 279.99
-            },
-            {
-                "nombreProducto": "Dona + Caf\u00e9",
-                "imgProducto": "..\/img\/DKDonaCafe.jpg",
-                "cantidad": 2,
-                "descripcion": "Donas y caf\u00e9",
-                "precio": 59.99
-            },
-            {
-                "nombreProducto": "Pizza de peperoni",
-                "imgProducto": "..\/img\/PizzaPeperoni.jpg",
-                "cantidad": "2",
+                "nombreProducto": "Pizza de jamon",
+                "imgProducto": "..\/img\/pizzajamon.jpg",
+                "cantidad": "1",
                 "descripcion": "Pizzas",
-                "precio": 199.98
+                "precio": 150.99
             }
         ],
         "pedidos": [
@@ -224,6 +210,13 @@
                 "cantidad": 2,
                 "descripcion": "Donuts",
                 "precio": 186.99
+            },
+            {
+                "nombreProducto": "Cheese Burguer",
+                "imgProducto": "..\/img\/CheeseBurguerMcdonald.jpg",
+                "cantidad": "1",
+                "descripcion": "Hamburguesas",
+                "precio": 150.99
             }
         ],
         "pedidos": [],
