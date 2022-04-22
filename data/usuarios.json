@@ -1,1 +1,225 @@
-[{"nombre":"Pedro","correo":"Martinez","contrase\u00f1a":"as123","latitud":"151515","longitud":"151554","ordenes":[{"nombreProducto":"Pastel Helado","imgProducto":"..\/img\/BasiliosPastelHelado.jpg","cantidad":2,"descripcion":"Pastel","precio":150.99},{"nombreProducto":"Pastel de Coraz\u00f3n","imgProducto":"..\/img\/BasiliosPastelCorazon.jpg","cantidad":2,"descripcion":"Pastele","precio":350.99},{"nombreProducto":"Pastel tres leches","imgProducto":"..\/img\/Basilios3Leches.jpg","cantidad":2,"descripcion":"Pastele","precio":250.99}],"pedidos":[{"numeroPedido":1,"usuario":"Pedro","correo":"Martinez","fechaPago":"26\/06\/2022","total":120,"icv":5,"subTotal":125,"productos":[{"nombreProducto":"Pastel Helado","cantidad":2,"precio":150.99},{"nombreProducto":"Pastel de Coraz\u00f3n","cantidad":2,"precio":350.99},{"nombreProducto":"Pastel tres leches","cantidad":2,"precio":250.99}]}],"metodoPago":[{"nombrePago":"Pedro Martinez","numeroTargeta":"123456","FechaExpiracion":"22\/02\/2022","CVV":"756"}]},{"nombre":"Juan","correo":"Perez","contrase\u00f1a":"as123","latitud":"151515","longitud":"151554","ordenes":[{"nombreProducto":"Media Docena","imgProducto":"..\/img\/DkmediaDocena.jpg","cantidad":2,"descripcion":"Donuts","precio":186.99},{"nombreProducto":"Docena de donas","imgProducto":"..\/img\/DKDocena.png","cantidad":2,"descripcion":"Donuts","precio":279.99},{"nombreProducto":"Dona + Caf\u00e9","imgProducto":"..\/img\/DKDonaCafe.jpg","cantidad":2,"descripcion":"Donas y caf\u00e9","precio":59.99}],"pedidos":[{"numeroPedido":1,"usuario":"Juan","correo":"Perez","fechaPago":"26\/06\/2022","total":120,"icv":5,"subTotal":125,"productos":[{"nombreProducto":"Pastel Helado","cantidad":2,"precio":150.99},{"nombreProducto":"Pastel de Coraz\u00f3n","cantidad":2,"precio":350.99},{"nombreProducto":"Pastel tres leches","cantidad":2,"precio":250.99}]}],"metodoPago":[{"nombrePago":"Juan Perez","numeroTargeta":"123456","FechaExpiracion":"22\/02\/2022","CVV":"756"}]},{"nombre":"Maria","correo":"Rodriguez","contrase\u00f1a":"as123","latitud":"151515","longitud":"151554","ordenes":[{"nombreProducto":"Media Docena","imgProducto":"..\/img\/DkmediaDocena.jpg","cantidad":2,"descripcion":"Donuts","precio":186.99},{"nombreProducto":"Docena de donas","imgProducto":"..\/img\/DKDocena.png","cantidad":2,"descripcion":"Donuts","precio":279.99},{"nombreProducto":"Dona + Caf\u00e9","imgProducto":"..\/img\/DKDonaCafe.jpg","cantidad":2,"descripcion":"Donas y caf\u00e9","precio":59.99}],"pedidos":[{"numeroPedido":1,"usuario":"Maria","correo":"Rodriguez","fechaPago":"26\/06\/2022","total":120,"icv":5,"subTotal":125,"productos":[{"nombreProducto":"Pastel Helado","cantidad":2,"precio":150.99},{"nombreProducto":"Pastel de Coraz\u00f3n","cantidad":2,"precio":350.99},{"nombreProducto":"Pastel tres leches","cantidad":2,"precio":250.99}]}],"metodoPago":[{"nombrePago":"Maria Rodriguez","numeroTargeta":"123456","FechaExpiracion":"22\/02\/2022","CVV":"756"}]},{"nombre":"Alejandro","correo":"ale@gmail.com","contrase\u00f1a":"moisa","latitud":"","longitud":"","ordenes":[{"nombreProducto":"Media Docena","imgProducto":"..\/img\/DkmediaDocena.jpg","cantidad":2,"descripcion":"Donuts","precio":186.99}],"pedidos":[],"metodoPago":[]}]
+[
+    {
+        "nombre": "Pedro",
+        "correo": "Martinez",
+        "contrase\u00f1a": "as123",
+        "latitud": "151515",
+        "longitud": "151554",
+        "ordenes": [
+            {
+                "nombreProducto": "Pastel Helado",
+                "imgProducto": "..\/img\/BasiliosPastelHelado.jpg",
+                "cantidad": 2,
+                "descripcion": "Pastel",
+                "precio": 150.99
+            },
+            {
+                "nombreProducto": "Pastel de Coraz\u00f3n",
+                "imgProducto": "..\/img\/BasiliosPastelCorazon.jpg",
+                "cantidad": 2,
+                "descripcion": "Pastele",
+                "precio": 350.99
+            },
+            {
+                "nombreProducto": "Pastel tres leches",
+                "imgProducto": "..\/img\/Basilios3Leches.jpg",
+                "cantidad": 2,
+                "descripcion": "Pastele",
+                "precio": 250.99
+            },
+            {
+                "nombreProducto": "Media Docena",
+                "imgProducto": "..\/img\/DkmediaDocena.jpg",
+                "cantidad": 2,
+                "descripcion": "Donuts",
+                "precio": 186.99
+            }
+        ],
+        "pedidos": [
+            {
+                "numeroPedido": 1,
+                "usuario": "Pedro",
+                "correo": "Martinez",
+                "fechaPago": "26\/06\/2022",
+                "total": 120,
+                "icv": 5,
+                "subTotal": 125,
+                "productos": [
+                    {
+                        "nombreProducto": "Pastel Helado",
+                        "cantidad": 2,
+                        "precio": 150.99
+                    },
+                    {
+                        "nombreProducto": "Pastel de Coraz\u00f3n",
+                        "cantidad": 2,
+                        "precio": 350.99
+                    },
+                    {
+                        "nombreProducto": "Pastel tres leches",
+                        "cantidad": 2,
+                        "precio": 250.99
+                    }
+                ]
+            }
+        ],
+        "metodoPago": [
+            {
+                "nombrePago": "Pedro Martinez",
+                "numeroTargeta": "123456",
+                "FechaExpiracion": "22\/02\/2022",
+                "CVV": "756"
+            }
+        ]
+    },
+    {
+        "nombre": "Juan",
+        "correo": "Perez",
+        "contrase\u00f1a": "as123",
+        "latitud": "151515",
+        "longitud": "151554",
+        "ordenes": [
+            {
+                "nombreProducto": "Media Docena",
+                "imgProducto": "..\/img\/DkmediaDocena.jpg",
+                "cantidad": 2,
+                "descripcion": "Donuts",
+                "precio": 186.99
+            },
+            {
+                "nombreProducto": "Pizza de jamon",
+                "imgProducto": "..\/img\/pizzajamon.jpg",
+                "cantidad": "1",
+                "descripcion": "Pizzas",
+                "precio": 150.99
+            }
+        ],
+        "pedidos": [
+            {
+                "numeroPedido": 1,
+                "usuario": "Juan",
+                "correo": "Perez",
+                "fechaPago": "26\/06\/2022",
+                "total": 120,
+                "icv": 5,
+                "subTotal": 125,
+                "productos": [
+                    {
+                        "nombreProducto": "Pastel Helado",
+                        "cantidad": 2,
+                        "precio": 150.99
+                    },
+                    {
+                        "nombreProducto": "Pastel de Coraz\u00f3n",
+                        "cantidad": 2,
+                        "precio": 350.99
+                    },
+                    {
+                        "nombreProducto": "Pastel tres leches",
+                        "cantidad": 2,
+                        "precio": 250.99
+                    }
+                ]
+            }
+        ],
+        "metodoPago": [
+            {
+                "nombrePago": "Juan Perez",
+                "numeroTargeta": "123456",
+                "FechaExpiracion": "22\/02\/2022",
+                "CVV": "756"
+            }
+        ]
+    },
+    {
+        "nombre": "Maria",
+        "correo": "Rodriguez",
+        "contrase\u00f1a": "as123",
+        "latitud": "151515",
+        "longitud": "151554",
+        "ordenes": [
+            {
+                "nombreProducto": "Media Docena",
+                "imgProducto": "..\/img\/DkmediaDocena.jpg",
+                "cantidad": 2,
+                "descripcion": "Donuts",
+                "precio": 186.99
+            },
+            {
+                "nombreProducto": "Docena de donas",
+                "imgProducto": "..\/img\/DKDocena.png",
+                "cantidad": 2,
+                "descripcion": "Donuts",
+                "precio": 279.99
+            },
+            {
+                "nombreProducto": "Dona + Caf\u00e9",
+                "imgProducto": "..\/img\/DKDonaCafe.jpg",
+                "cantidad": 2,
+                "descripcion": "Donas y caf\u00e9",
+                "precio": 59.99
+            }
+        ],
+        "pedidos": [
+            {
+                "numeroPedido": 1,
+                "usuario": "Maria",
+                "correo": "Rodriguez",
+                "fechaPago": "26\/06\/2022",
+                "total": 120,
+                "icv": 5,
+                "subTotal": 125,
+                "productos": [
+                    {
+                        "nombreProducto": "Pastel Helado",
+                        "cantidad": 2,
+                        "precio": 150.99
+                    },
+                    {
+                        "nombreProducto": "Pastel de Coraz\u00f3n",
+                        "cantidad": 2,
+                        "precio": 350.99
+                    },
+                    {
+                        "nombreProducto": "Pastel tres leches",
+                        "cantidad": 2,
+                        "precio": 250.99
+                    }
+                ]
+            }
+        ],
+        "metodoPago": [
+            {
+                "nombrePago": "Maria Rodriguez",
+                "numeroTargeta": "123456",
+                "FechaExpiracion": "22\/02\/2022",
+                "CVV": "756"
+            }
+        ]
+    },
+    {
+        "nombre": "Alejandro",
+        "correo": "ale@gmail.com",
+        "contrase\u00f1a": "moisa",
+        "latitud": "",
+        "longitud": "",
+        "ordenes": [
+            {
+                "nombreProducto": "Media Docena",
+                "imgProducto": "..\/img\/DkmediaDocena.jpg",
+                "cantidad": 2,
+                "descripcion": "Donuts",
+                "precio": 186.99
+            },
+            {
+                "nombreProducto": "Cheese Burguer",
+                "imgProducto": "..\/img\/CheeseBurguerMcdonald.jpg",
+                "cantidad": "1",
+                "descripcion": "Hamburguesas",
+                "precio": 150.99
+            }
+        ],
+        "pedidos": [],
+        "metodoPago": []
+    }
+]
