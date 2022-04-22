@@ -54,6 +54,15 @@
             fclose($archivo);
         }
 
+        public static function eliminarOrdenes($indice){
+                $contenidoArchivo =  file_get_contents("../data/usuarios.json");
+                $usuarios = json_decode($contenidoArchivo, true); 
+                $usuarios[$indice]["ordenes"] = array();
+                $archivo = fopen("../data/usuarios.json", "w");
+                fwrite($archivo, json_encode($usuarios));
+                fclose($archivo);
+        }
+
         /**
          * Get the value of nombreProducto
          */ 
