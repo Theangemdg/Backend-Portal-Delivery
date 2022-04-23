@@ -19,7 +19,7 @@
         break;
         case 'PUT':
             $_PUT = json_decode(file_get_contents('php://input'),true);
-            $empresa = new Empresa($_PUT['nombreEmpresa'], $_PUT['imagen'], $_PUT['logo'], $_PUT['descripcion'],  $_PUT['productos']);
+            $empresa = new Empresa($_PUT['id'], $_PUT['nombreEmpresa'], $_PUT['imagen'], $_PUT['logo'], $_PUT['descripcion'],  $_PUT['productos']);
             $empresa->actualizarEmpresa($_GET['id'], $_GET['idE']);
             $resultado["mensaje"] = "Actualizar una empresa con el id: ".$_GET['id'].
                                     ", Informacion a actualizar: ".json_encode($_PUT);

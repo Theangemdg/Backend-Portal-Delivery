@@ -1,13 +1,15 @@
 <?php
 
     class Empresa {
+        private $id;
         private $nombreEmpresa;
         private $imagen;
         private $logo;
         private $descripcion;
         private $productos;
         
-        public function __construct($nombreEmpresa,$imagen,$logo,$descripcion, $productos){
+        public function __construct($id, $nombreEmpresa,$imagen,$logo,$descripcion, $productos){
+            $this->id = $id;
             $this->nombreEmpresa = $nombreEmpresa;
             $this->imagen = $imagen;
             $this->logo = $logo;
@@ -20,6 +22,7 @@
             $contenidoArchivo =  file_get_contents("../data/categorias.json");
             $categorias = json_decode($contenidoArchivo, true);
             $categorias[$indice]["empresas"][] = array(
+                    "id"=> $this->id,
                     "nombreEmpresa"=> $this->nombreEmpresa,
                     "imagen"=> $this->imagen,
                     "logo"=> $this->logo,
@@ -38,6 +41,7 @@
                 $categorias = json_decode($contenidoArchivo, true);
                 
                 $empresa = array(
+                        "id"=> $this->id,
                         "nombreEmpresa"=> $this->nombreEmpresa,
                         "imagen"=> $this->imagen,
                         "logo"=> $this->logo,
@@ -170,6 +174,26 @@
         public function setDescripcion($descripcion)
         {
                 $this->descripcion = $descripcion;
+
+                return $this;
+        }
+
+        /**
+         * Get the value of id
+         */ 
+        public function getId()
+        {
+                return $this->id;
+        }
+
+        /**
+         * Set the value of id
+         *
+         * @return  self
+         */ 
+        public function setId($id)
+        {
+                $this->id = $id;
 
                 return $this;
         }
