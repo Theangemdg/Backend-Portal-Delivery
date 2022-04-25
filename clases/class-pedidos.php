@@ -59,6 +59,12 @@
             echo json_encode($usuarios[$indice]["pedidos"]);
         }
 
+        public static function obtenerPedido($indice, $idProducto){
+                $contenidoArchivo =  file_get_contents("../data/usuarios.json");
+                $usuarios = json_decode($contenidoArchivo, true);
+                echo json_encode($usuarios[$indice]["pedidos"][$idProducto]);
+        }
+
         /**
          * Get the value of numeroPedido
          */ 

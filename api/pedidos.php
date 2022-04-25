@@ -11,7 +11,9 @@
             echo json_encode($resultado); 
         break;
         case 'GET':
-            if (isset($_GET['id'])){
+            if (isset($_GET['id']) && isset($_GET['idP'])){
+                Pedido::obtenerPedido($_GET['id'], $_GET['idP']);
+            }else if (isset($_GET['id'])){
                 Pedido::obtenerPedidos($_GET['id']);
             }
         break;
