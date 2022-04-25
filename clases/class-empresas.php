@@ -8,7 +8,7 @@
         private $descripcion;
         private $productos;
         
-        public function __construct($id, $nombreEmpresa,$imagen,$logo,$descripcion, $productos){
+        public function __construct($id, $nombreEmpresa, $imagen,$logo,$descripcion, $productos){
             $this->id = $id;
             $this->nombreEmpresa = $nombreEmpresa;
             $this->imagen = $imagen;

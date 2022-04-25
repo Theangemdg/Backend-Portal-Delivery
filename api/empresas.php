@@ -5,7 +5,7 @@
     switch($_SERVER['REQUEST_METHOD']){
         case 'POST':
             $_POST = json_decode(file_get_contents('php://input'),true);
-            $empresa = new Empresa($_POST["nombreEmpresa"], $_POST["imagen"], $_POST["logo"], $_POST["descripcion"], $_POST["productos"]);
+            $empresa = new Empresa($_POST['id'], $_POST["nombreEmpresa"], $_POST["imagen"], $_POST["logo"], $_POST["descripcion"], $_POST["productos"]);
             $empresa -> guardarEmpresa($_GET['id']);
             $resultado["mensaje"] = "Guardar empresa, informacion: ".json_encode($_POST);
             echo json_encode($resultado); 

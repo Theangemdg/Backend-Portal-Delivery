@@ -103,16 +103,9 @@
             {
                 "nombreProducto": "Pizza de peperoni",
                 "imgProducto": "..\/img\/PizzaPeperoni.jpg",
-                "cantidad": "2",
-                "descripcion": "Pizzas",
-                "precio": 199.98
-            },
-            {
-                "nombreProducto": "Amoxicilina",
-                "imgProducto": "..\/img\/AmoxicilinaKielsa.jpg",
                 "cantidad": 1,
-                "descripcion": "Medicamentos",
-                "precio": 75.99
+                "descripcion": "Pizzas",
+                "precio": 110
             }
         ],
         "pedidos": [
@@ -244,6 +237,86 @@
                         "nombreProducto": "Amoxicilina",
                         "cantidad": 1,
                         "precio": 75.99
+                    }
+                ]
+            },
+            {
+                "numeroPedido": 2,
+                "usuario": "Alejandro",
+                "correo": "ale@gmail.com",
+                "fechaPago": "24\/4\/2022",
+                "total": 126.5,
+                "icv": 16.5,
+                "subTotal": 110,
+                "productos": [
+                    {
+                        "nombreProducto": "Pizza de peperoni",
+                        "cantidad": 1,
+                        "precio": 110
+                    }
+                ]
+            },
+            {
+                "numeroPedido": 3,
+                "usuario": "Alejandro",
+                "correo": "ale@gmail.com",
+                "fechaPago": "24\/4\/2022",
+                "total": 229.98850000000002,
+                "icv": 29.9985,
+                "subTotal": 199.99,
+                "productos": [
+                    {
+                        "nombreProducto": "Pizza 4 estaciones",
+                        "cantidad": 1,
+                        "precio": 199.99
+                    }
+                ]
+            },
+            {
+                "numeroPedido": 4,
+                "usuario": "Alejandro",
+                "correo": "ale@gmail.com",
+                "fechaPago": "25\/4\/2022",
+                "total": 325.4155,
+                "icv": 42.4455,
+                "subTotal": 282.97,
+                "productos": [
+                    {
+                        "nombreProducto": "Doble cuarto de carne",
+                        "cantidad": 1,
+                        "precio": 250.99
+                    },
+                    {
+                        "nombreProducto": "Coca Cola de lata",
+                        "cantidad": 2,
+                        "precio": 31.98
+                    }
+                ]
+            }
+        ],
+        "metodoPago": []
+    },
+    {
+        "nombre": "moisa",
+        "correo": "moi@gmail.com",
+        "contrase\u00f1a": "as123",
+        "latitud": "",
+        "longitud": "",
+        "ordenes": [],
+        "pedidos": [
+            {
+                "numeroPedido": 1,
+                "usuario": "moisa",
+                "correo": "moi@gmail.com",
+                "fechaPago": "24\/4\/2022",
+                "total": 114.98849999999999,
+                "icv": 14.998499999999998,
+                "subTotal": 99.99,
+                "productos": [
+                    {
+                        "nombreProducto": "Big Mac",
+                        "cantidad": 1,
+                        "precio": 99.99
                     }
                 ]
             }
